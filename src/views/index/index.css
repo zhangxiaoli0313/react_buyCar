@@ -1,0 +1,48 @@
+#index{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+#index header{
+    height: .96rem;
+    text-align: center;
+    display: flex;
+    line-height: .96rem;
+    color: #fff;
+    
+}
+#index header input{
+    border-radius: .1rem;
+}
+#index header span:nth-child(1){
+    margin: 0 10px;
+    padding-right: 10px;
+}
+#index .content{
+    flex: 1;
+    overflow-y:scroll;
+}
+#index .footerNav{
+    margin-bottom: .15rem;
+    width: 100%;
+    height:.69rem;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+#index .footerNav li{
+    flex: 1;
+}
+#index .footerNav li a{
+    text-decoration: none;
+}
+#index .footerNav span{
+    display: block;
+}
+#index .footerNav .iconfont{
+    font-size: .26rem;
+}
+#index .tab-active{
+    color: #fc4141;
+}

@@ -1,0 +1,15 @@
+.carlist p{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+.bagcat{
+    background: #D1EEEE;
+    color: #BDBDBD;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.bagprice{
+    padding: 10px 0;
+    margin-left: 10px;
+}

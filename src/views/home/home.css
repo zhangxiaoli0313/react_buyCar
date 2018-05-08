@@ -1,0 +1,49 @@
+#home{
+    height: 100%;
+    overflow:auto;
+}
+#home header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#home header span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+#home header span b{
+    font-weight: normal;
+    font-size: .16rem;
+}
+#home header .iconfont{
+    font-size: .32rem;
+}
+#home header input{
+    width: 70%;
+    height: .45rem;
+    margin: .25rem auto;
+    border-radius: .5rem;
+    border: 0;
+    border: 1px solid #ccc;
+    padding-left: .2rem;
+}
+#home .home-cat{
+    flex:1;
+    
+}
+#home .home-cat ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#home .home-cat ul li{
+    width: 25%;
+    text-align: center;
+}
+#home .home-cat ul li img{
+    width: 1rem;
+    margin: .2rem auto;
+}
